@@ -1,1 +1,1 @@
-# CV
+https://DevFariz.github.io/rsschool-cv/

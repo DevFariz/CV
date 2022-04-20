@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-item__link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-item__link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-item__link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-item__link">Code Example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-item__link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-item__link">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-item__link">Projects</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="menuLine"></span>
+                    <span class="menuLine"></span>
+                    <span class="menuLine"></span>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <!-- header end -->
+
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <div class="intro-container">
+                    <div class="intro-info">
+                        <h1 class="intro__name">
+                            Fariz <br>
+                            <span>Ramazanov</span>
+                        </h1>
+                        <p class="intro__text">
+                            Junior Frontend Developer
+                        </p>
+                    </div>
+                    <div class="intro__pic">
+                        <img src="./img/Fariz.jpeg" alt="R. Fariz" class="intro__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title title">About me</h2>
+                <div class="about-container">
+                    <p class="about__info text">I'm a self-educated web developer. I'm very interested in coding and I can spend whole day just coding. I want to learn new technolgies in frontend like React library and improve my programming skills here. My strengths are in problem solving and fast learning.</p>
+                    <img src="./img/about.png" alt="about me" class="about__img">
+                </div>
+            </div>
+        </section>
+
+         
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="contacts__title title">Contact Information</h2>
+                <div class="contacts-container">
+                    <ul class="contacts-list text">
+                        <li class="contacts__item">
+                            <i class="fas fa-envelope"></i><span>E-mail: </span> <a href="mailto:farizramazanov38@mail.ru" class="contact__item-link"> farizramazanov38@mail.ru</a>
+                        </li>
+                        <li class="contacts__item">
+                            <i class="fas fa-phone-square"></i><span>Phone: </span> <a href="tel:+994505552159" class="contact__item-link"> +994505552159</a>
+                        </li>
+                        <li class="contacts__item">
+                            <i class="fab fa-github"></i><span>Github: </span> <a href="https://github.com/DevFariz" class="contact__item-link"> devFariz</a>
+                        </li>
+                        <li class="contacts__item">
+                            <i class="fab fa-telegram-plane"></i><span>Telegram:</span> devFariz#2271
+                        </li>
+                        <li class="contacts__item">
+                            <i class="fas fa-map-marker-alt"></i><span>Address:</span> Baku, Azerbaijan
+                        </li>
+                    </ul>
+                    <div class="contact__img">
+                        <img src="./img/contact.png" alt="contacts" class="contact-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title title">Skills</h2>
+                <div class="skills-container">
+                    <ul class="skills-list text">
+                        <li class="skills__item">
+                            <i class="fab fa-html5"></i><span>HTML5</span>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-css3-alt"></i><span>CSS3/SASS</span>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-js"></i><span>Javascript(basic)</span>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-git-alt"></i><span>Git, Github</span>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-figma"></i><span>Figma (for web developers)</span>
+                        </li>
+                    </ul>
+                    <div class="skills__img">
+                        <img src="./img/skills.jpg" alt="skills" class="skills-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="code-example" id="code">
+            <div class="container">
+                <h2 class="code__title title">
+                    Code Example
+                </h2>
+                <pre class="pre">
+                    <code class="code">
+    <span class="fc-c">function</span> <span class="fc-n">finalGrade</span> (<span class="fc-p">exam, projects</span>) 
+    {
+        <span class="cd-c">if</span>(exam > 90 || projects > 10)
+        {
+            <span class="fc-r">return 100;</span>
+        }
+        <span class="cd-c">else if</span>(exam > 75 && projects >= 5)
+        {
+            <span class="fc-r">return 90;</span>
+        }
+        <span class="cd-c">else if</span>(exam > 50 && projects >=2)
+        {
+            <span class="fc-r">return 75;</span>
+        }
+        <span class="cd-c">else</span>
+        {
+            <span class="fc-r">return 0;</span>
+        }
+    }
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        
+
+        <section class="education" id="education">
+            <div class="container">
+                <h2 class="education__title title">Education and Courses</h2>
+                <div class="education-container">
+                    <ul class="education-list text">
+                        <li class="education__item">
+                            <i class="fas fa-university"></i> <span>Azerbaijan State Oil and University</span>
+                        </li>
+                        <li class="education__item">
+                            <i class="fab fa-free-code-camp"></i><span>HTML and CSS course (freecodecamp)</span>
+                        </li>
+                    </ul>
+                    <div class="education__img">
+                        <img src="./img/eduction.png" alt="education" class="education-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="languages" id="languages">
+            <div class="container">
+                <h2 class="languages__title title">Languages</h2>
+                <div class="languages-container">
+                    <ul class="languages-list text">
+                        <li class="languages__item">
+                            Azerbaijani
+                        </li>
+                        <li class="languages__item">
+                            Russian
+                        </li>
+                        <li class="languages__item">
+                            Turkish
+                        </li>
+                        <li class="languages__item">
+                            English(A2)
+                        </li>
+                    </ul>
+                    <div class="languages__img">
+                        <img src="./img/languages.png" alt="languages" class="languages-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="project__title title">Projects</h2>
+                <div class="projects-container">
+                    <div class="project__item">
+                        <a href="https://DevFariz.github.io/rsschool-cv/" class="project__link" target="_blank"></a>
+                        <div class="project__img">
+                            <img src="./img/Project1.png" alt="CV" class="projects-pic">
+                        </div>
+                        <p class="project__name">Project:  CV</p>
+                    </div>
+                    <div class="project__item">
+                        <a href="https://devfariz.github.io/Healthy-food/" class="project__link" target="_blank"></a>
+                        <div class="project__img">
+                            <img src="./img/Project2.png" alt="Healthy food" class="projects-pic">
+                        </div>
+                        <p class="project__name">Project:  Healthy food</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="github-profile">
+                    <a href="https://github.com/DevFariz" class="github-link">
+                        <img src="./img/github.png" alt="github-profile" class="github__img">
+                    </a>
+                </div>
+                <div class="creation-date">
+                    <i class="far fa-copyright"></i><span>2022 By R. Fariz</span>
+                </div>
+                <div class="course-logo">
+                    <a href="https://rs.school/js/" class="rs-school__link">
+                        <img src="./img/RS-School.jpg" alt="RS-School" class="rs-school__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+    <script src="https://kit.fontawesome.com/d6470ee722.js" crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+</body> 
+</html>
