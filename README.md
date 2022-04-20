@@ -1,1 +1,1 @@
-https://DevFariz.github.io/rsschool-cv/
+https://DevFariz.github.io/CV/
