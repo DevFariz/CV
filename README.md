@@ -1,1 +1,1 @@
-https://DevFariz.github.io/CV/
+Deploy: https://DevFariz.github.io/CV/
