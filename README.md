@@ -1,1 +1,2 @@
-Deploy: https://DevFariz.github.io/CV/
+Deploy: https://DevFariz.github.io/CV/  <br>
+Version with new design comming soon...
